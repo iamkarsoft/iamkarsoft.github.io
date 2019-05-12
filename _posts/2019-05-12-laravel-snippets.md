@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "learning PHPUnit"
-date:   2019-05-08 19:34:49 +0000
+date:   2019-05-12 19:34:49 +0000
 categories: php phpunit 
 ---
 
@@ -22,7 +22,7 @@ categories: php phpunit
 
 `composer dump-autoload -o`
 
-<h4>Creating the `phpunit.xml` file</h4>
+<h4>Creating the phpunit.xml file</h4>
 
 <code>
 <?xml version="1.0" encoding="UTF-8" ?>
