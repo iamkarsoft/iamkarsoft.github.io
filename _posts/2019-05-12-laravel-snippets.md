@@ -23,3 +23,16 @@ categories: php phpunit
 `composer dump-autoload -o`
 
 <h4>Creating the `phpunit.xml` file</h4>
+
+<code>
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="vendor/autoload.php"
+    colors="true"
+    verbose="true"
+    stopOnFailure="false"
+    >
+        <testsuite name="Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+</phpunit>
+</code>
