@@ -90,3 +90,113 @@ class User
     }
 }
 ```
+
+<h6>More Test cases 02-06-2019</h6>
+
+
+`/tests/unit/UserTest.php`
+
+```
+
+    public function testFullNameIsReturned()
+    {
+        $user = new \App\Models\User;
+
+        $user->setFirstName('Ramos');
+        $user->setLastName('Amoussou');
+
+        $this->assertEquals($user->getFullName(), 'Ramos Amoussou');
+    }
+
+    public function testFirstAndLastNameAreTrimmed()
+    {
+        $user = new \App\Models\User;
+
+        $user->setFirstName('Ramos  ');
+        $user->setLastName('     Amoussou');
+        $this->assertEquals($user->getFirstName(), 'Ramos');
+        $this->assertEquals($user->getLastName(), 'Amoussou');
+    }
+
+```
+
+
+`#/app/Models/User.php`
+
+```
+
+    public function setFirstName($firstname)
+    {
+        $this->first_name = trim($firstname);
+    }
+
+    public function getFirstName()
+    {
+        return $this->first_name;
+    }
+
+    public function setLastName($lastname)
+    {
+        $this->last_name= trim($lastname);
+    }
+
+    public function getLastName()
+    {
+        return $this->last_name;
+    }
+
+    public function getFullName()
+    {
+        return "$this->first_name $this->last_name";
+    }
+```
+
+
+<h6> Testing with arrays and emails</h6>
+
+```
+  public function testEmailAddressCanBeSet()
+    {
+        $user = new \App\Models\User;
+        $user->setEmail('kofiramos92@gmail.com');
+        $this->assertEquals($user->getEmail(), 'example@gmail.com');
+    }
+
+    public function testEmailVariables()
+    {
+        $user = new \App\Models\User;
+        $user->setFirstName('Ramos');
+        $user->setLastName('Amoussou');
+        $user->setEmail('example@gmail.com');
+
+        $emailVariables = $user->getEmailVariables();
+
+        $this->assertArrayHasKey('full_name', $emailVariables);
+        $this->assertArrayHasKey('email', $emailVariables);
+        $this->assertEquals($emailVariables['full_name'], 'Ramos Amoussou');
+        $this->assertEquals($emailVariables['email'], 'example@gmail.com');
+    }
+```
+
+
+`app/Models/User`
+
+```
+public function setEmail($email)
+    {
+        $this->email= $email;
+    }
+
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    public function getEmailVariables()
+    {
+        return [
+            'full_name' => $this->getFullName(),
+            'email'=> $this->getEmail(),
+        ];
+    }
+```
