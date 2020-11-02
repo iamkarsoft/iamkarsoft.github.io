@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "simple-seo-tags"
+title:  "simple seo tags"
 date:   2020-11-02
 categories: seo html markup
 ---
