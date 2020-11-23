@@ -13,22 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kofi Ramos Amoussou
+title: Kofi Ramos
 email: karsoft92@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Being a self-taught web developer, I'm keen on building simple, responsive and scalable web applications that communicate a clear message to the public. When I'm not coding to develop web applications, I tend to find myself often in the kitchen trying out new recipes.
+  A Web developer from Ghana. I'm keen on building simple, responsive websites and web applications using PHP, Laravel and VueJS.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: iamkarsoft
 github_username:  iamkarsoft
 facebook_username: iamkarsoft
-
+tagline: "A web developer from Ghana"
+author: Kofi Ramos
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
+permalink: /:title
+paginate: 5
+paginate_path: "/articles/page:num/"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
