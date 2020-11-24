@@ -8,7 +8,7 @@ categories: vuejs javascript
 A few things i want to remember about vuejs
 
 
-#### The big parts
+### The big parts
 
 These are the things i have to learn
 
