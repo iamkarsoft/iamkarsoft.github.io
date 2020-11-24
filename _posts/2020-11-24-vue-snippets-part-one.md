@@ -13,11 +13,11 @@ A few things i want to remember about vuejs
 These are the things i have to learn
 
 
-- [] Control Flow
-- [] Components
-- [] Data Binding
-- [] Routing
-- [] State Management
+-[] Control Flow
+-[] Components
+-[] Data Binding
+-[] Routing
+-[] State Management
 
 
 ```
@@ -27,6 +27,7 @@ methods:{} // where you write your functions
 computed:{}
 
 ```
+
 
 
 - `v-show` `v-if` `v-else` `v-else-if`  for conditional flow
