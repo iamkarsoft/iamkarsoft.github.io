@@ -13,11 +13,11 @@ A few things i want to remember about vuejs
 These are the things i have to learn
 
 
- - [ ] Control Flow
- - [ ] Components
- - [ ] Data Binding
- - [ ] Routing
- - [ ] State Management
+ - [ ]  Control Flow
+ - [ ]  Components
+ - [ ]  Data Binding
+ - [ ]  Routing
+ - [ ]  State Management
 
 
 ```
