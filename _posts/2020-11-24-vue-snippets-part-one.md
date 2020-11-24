@@ -13,11 +13,11 @@ A few things i want to remember about vuejs
 These are the things i have to learn
 
 
--[] Control Flow
--[] Components
--[] Data Binding
--[] Routing
--[] State Management
+ - [ ] Control Flow
+ - [ ] Components
+ - [ ] Data Binding
+ - [ ] Routing
+ - [ ] State Management
 
 
 ```
@@ -30,7 +30,7 @@ computed:{}
 
 
 
-- `v-show` `v-if` `v-else` `v-else-if`  for conditional flow
-- `v-for` for looping
-- `v-bind` for binding elements 
-- `:class` or `:style` for binding css classes and styling
+ - `v-show` `v-if` `v-else` `v-else-if`  for conditional flow
+ - `v-for` for looping
+ - `v-bind` for binding elements 
+ - `:class` or `:style` for binding css classes and styling
