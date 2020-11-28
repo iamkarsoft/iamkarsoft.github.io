@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Learning Tailwind"
-date:   2019-05-22 23:48:49 +0000
-categories: php laravel course
+date:   2019-09-19 23:48:49 +0000
+categories: css laravel course tailwind
 ---
 
 <h3>Getting started</h3>
