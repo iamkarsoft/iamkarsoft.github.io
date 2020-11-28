@@ -1,0 +1,27 @@
+pre,.highlight {
+	width: 100%;
+	padding: 10px;
+	margin: 2% 0%;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	background: url(lines.png) repeat 0 0;
+	white-space: pre-wrap;
+	background: #19292f;
+	color: white;
+
+
+}
+pre code {
+	margin: 10% 0%;
+	padding: 10px;
+	color: #fff;
+	overflow-x: auto;
+}
+
+code.highlighter-rouge{
+	color: #e7514b;
+	background: #ec565030;
+	padding: 4px 2px;
+}

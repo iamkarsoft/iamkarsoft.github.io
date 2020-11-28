@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="w-full md:w-2/3 mx-auto text-3xl font-bold my-10 py-16">{{site.description}}</div>
+<div class="w-full md:w-2/3 mx-auto">
+	<div class="md:w-2/4 mx-auto">
+		{% for post in site.posts limit: 5 %}
+		<div class="w-full py-5">
+			<h3 class="my-5 text-2xl font-bold"><a href="{{post.url}}">{{post.title}}</a></h3>
+			<div class="mt-4 w-full font-mono">{{post.date | date:"%b %-d, %Y"}} — </div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

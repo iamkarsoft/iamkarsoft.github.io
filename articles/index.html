@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="post w-full md:w-2/3 mx-auto">
+	<header class="w-full">
+		<h3 class="text-4xl my-4">{{page.title}}</h3>
+	</header>
+
+	<article class="w-full my-5 post-content">
+	{% for post in paginator.posts %}
+		<div class="w-full py-5">
+			<h3 class="my-5 text-2xl font-bold"><a href="{{post.url}}">{{post.title}}</a></h3>
+			<div class="mt-4 w-full font-mono">{{post.date | date:"%b %-d, %Y"}} — </div>
+		</div>
+		{% endfor %}
+	</article>
+
+	<article class="w-full">
+		<!-- pagination -->
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a  class=" bg-indigo-500 text-white border-2 p-1 font-bold rounded-lg border-indigo-500" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+
+  {% endif %}
+
+
+  {% if paginator.next_page %}
+    <a class=" bg-indigo-500 text-white p-1 font-bold border-2 rounded-lg border-indigo-500" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+{% endif %}
+</div>
+	</article>
+
+</div>
