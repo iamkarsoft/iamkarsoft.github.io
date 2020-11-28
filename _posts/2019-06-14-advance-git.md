@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Advance Git for Developers"
-date:   2019-05-12 19:34:49 +0000
+date:   2019-06-14 19:34:49 +0000
 categories: git cli
 ---
 
