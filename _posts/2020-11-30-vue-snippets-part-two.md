@@ -1,7 +1,7 @@
 ---
-title: Vue Snippets II
 layout: post
-date: 20202-11-30
+title: "Vue Snippets II"
+date: 2020-11-30
 categories: vuejs javascript
 ---
 
