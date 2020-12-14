@@ -4,6 +4,8 @@ title: "Vue Snippets II"
 date: 2020-11-30
 categories: vuejs javascript
 ---
+##### _updated on: 14-12-2020_
+
 
 
 ### Data binding and Event Binding
@@ -414,8 +416,28 @@ export default {
 
 <br>
 
+### Components
+
+**data()** Define your component models
+
+**Methods** execute custom logic
+
+**lifecycle hooks** tap into when specific component event occurs
+
+**computed** property that fires when any dependency value changes
+
+**watch** execute custom logic specific data model changes
+
+**filters** transform outputs, what the user sees 
+
+
+
+
+
 
 ### Adding Routing
+
+
 
 #### Installing vue router
 
