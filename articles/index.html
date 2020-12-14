@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="post w-full md:w-2/3 mx-auto">
+	<h3 class="text-3xl text-indigo-800 pb-2 border-b-2 border-indigo-800 font-bold mt-4">Recent Notes</h3>
 	<header class="w-full">
 		<h3 class="text-4xl my-4">{{page.title}}</h3>
 	</header>
@@ -11,7 +12,7 @@ layout: default
 	{% for post in paginator.posts %}
 		<div class="w-full py-5">
 			<h3 class="my-5 text-2xl font-bold"><a href="{{post.url}}">{{post.title}}</a></h3>
-			<div class="mt-4 w-full font-mono">{{post.date | date:"%b %-d, %Y"}} — </div>
+			<div class="mt-4 w-full font-mono font-bold text-indigo-800">{{post.date | date:"%b %-d, %Y"}} — </div>
 		</div>
 		{% endfor %}
 	</article>
