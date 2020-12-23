@@ -8,6 +8,10 @@ date: 2020-11-25
 
 `php artisan make:test AssignmentTest`
 
+### running phpunit from cli
+
+`./vendor/bin/phpunit`
+
 
 ###  Writing a simple post route test
 
