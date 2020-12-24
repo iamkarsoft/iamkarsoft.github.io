@@ -1,5 +1,5 @@
 ---
-title: "upgrading php on ubuntu"
+title: "Upgrading php on ubuntu"
 layout: post
 date: 2020-12-24
 categories: linux php devops
