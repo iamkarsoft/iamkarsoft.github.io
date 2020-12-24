@@ -148,22 +148,20 @@ semantic markup is related markup.
 - `<label></label>` to give information or describe a field
 - `<button></button>` buttons with type submit or button
 - `name` attributes place an important role when data is being submitted from a form. it allows us to identify each data by their name
-
+<!-- - `<input type="checkbox" checked> <label>Scales</label>` checkbox
+- `<input type="radio" name="dessert" checked> <label>Scales</label>` radio buttons
+- `<select><option value="shirt">shirt</option></select>` select with option element
+- `<input type="range">` use to select a range
+- `<input type="number">` use for numbers 
+- `<textarea></textarea>` textarea for more text -->
  
 
 
 
-```
+```html
 <form action="">
 	<label for="cheese">Do you like cheese?</label>
-<!-- label with input non conventional -->
-	
-	<label>
-	Enter a Number:
-	<input type="number" placeholder="enter a number">
-	</label>
 
-<!--   -->
 	<input type="text"  name="cheese" placeholder="username">
 	<input type="password">
 	<input type="checkbox">
@@ -173,7 +171,39 @@ semantic markup is related markup.
 	<input type="number">
 	<input type="range">
 
+<!-- label with input non conventional -->
+	
+	<label>
+	Enter a Number:
+	<input type="number" placeholder="enter a number">
+	</label>
+
+<!--  /label end -->
+	<!-- range example -->
+
+
+	<input type="range" name="percentaage" min="0" max="100" value="90" step="10">
+<!-- /end range examle -->
 	<button type="submit">submit</button>
 </form>
 ```
 
+#### Form validations
+
+- `required` makes field a required field that needs user input
+- `minlength maxlength` min max puts a limit on the minimum and maximum characters required in a text input field
+- `min max` min max puts a limit on the minimum and maximum numbers required in a number input field
+- `pattern` used for regular expressions (regex)
+
+```html
+<form>
+<label>Firstname</label>
+<!-- required example -->
+<input type="text" required name="first">
+
+
+<!-- min max example -->
+<input type="text" minlength="5" maxlength="1000" name="">
+<input type="number" min="5" max="1000" name="">
+</form>
+```
