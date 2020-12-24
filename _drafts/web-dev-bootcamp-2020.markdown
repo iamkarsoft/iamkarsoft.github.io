@@ -182,7 +182,7 @@ semantic markup is related markup.
 	<!-- range example -->
 
 
-	<input type="range" name="percentaage" min="0" max="100" value="90" step="10">
+	<input type="range" name="percentage" min="0" max="100" value="90" step="10">
 <!-- /end range examle -->
 	<button type="submit">submit</button>
 </form>
@@ -200,7 +200,7 @@ semantic markup is related markup.
 <label>Firstname</label>
 <!-- required example -->
 <input type="text" required name="first">
-
+ 
 
 <!-- min max example -->
 <input type="text" minlength="5" maxlength="1000" name="">
