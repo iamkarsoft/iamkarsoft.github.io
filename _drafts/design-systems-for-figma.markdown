@@ -12,3 +12,14 @@ categories: design ui ux figma system
 - field height: 56px-64px
 - label size: 17px
 - text size: 23px
+
+
+## Fonts
+
+### Google fonts
+
+- Kumbh Sans
+- Epilogue
+- Jost
+- Sora
+- Syne
