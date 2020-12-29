@@ -9,14 +9,14 @@ categories: javascript course
 
 
 
-## Html Tags
+<h2 class="text-3xl font-bold mt-10"> Html Tags</h2>
 
 - Headers (`<h1></h1>-<h6></h6>`)
 - paragraphs`<p></p>`
 
 
 
-### Html Skeleton
+<h3 class="text-2xl font-bold mt-10"> Html Skeleton</h3>
 
 ```
 <!DOCTYPE html>
@@ -28,10 +28,10 @@ categories: javascript course
 </html>
 ```
 
-### Html: Lists
+<h3 class="text-2xl font-bold mt-10"> Html: Lists</h3>
 
 
-####  Unordered list
+<h4 class="text-xl font-bold mt-10">  Unordered list</h4>
 
 ```
 <ul>
@@ -39,7 +39,7 @@ categories: javascript course
 </ul>
 ```
 
-#### Ordered list
+<h4 class="text-xl font-bold mt-10"> Ordered list</h4>
 
 
 ```
@@ -50,7 +50,7 @@ categories: javascript course
 ```
 
 
-### Html: Anchor link
+<h3 class="text-3xl font-bold mt-10"> Html: Anchor link</h3>
   
 ```
 <a href="http://google.com">google.com</a> //link
@@ -59,16 +59,16 @@ categories: javascript course
 ```
 
 
-### Html: Image Elements
+<h3 class="text-xl font-bold mt-10"> Html: Image Elements</h3>
 
 ```
 <img src="imagename.extension" alt="an image on my pc">
 ```
 
-### Html: Html Entities
+<h3 class="text-xl font-bold mt-10"> Html: Html Entities</h3>
 
 
-### Html: Semantic Html
+<h3 class="text-xl font-bold mt-10"> Html: Semantic Html</h3>
 
 semantic markup is related markup. 
 
@@ -83,10 +83,10 @@ semantic markup is related markup.
 
 
 
-### Html: Forms & Tables
+<h3 class="text-2xl font-bold mt-10">Html: Forms & Tables</h3>
 
 
-#### Tables
+<h4 class="text-xl font-bold mt-10">Tables</h4>
 
 - `<table></table>` the tag for table
 - `<td></td>` table data represents a cell
@@ -139,7 +139,7 @@ semantic markup is related markup.
 ```
 
 
-### Forms
+<h3 class="text-2xl font-bold mt-10"> Forms</h3>
 
 - `<form></form>` form element for containing fields and everything related to the form 
 
@@ -187,8 +187,7 @@ semantic markup is related markup.
 	<button type="submit">submit</button>
 </form>
 ```
-
-#### Form validations
+<h4 class="text-xl font-bold mt-10">Form validations</h4>
 
 - `required` makes field a required field that needs user input
 - `minlength maxlength` min max puts a limit on the minimum and maximum characters required in a text input field
@@ -207,3 +206,130 @@ semantic markup is related markup.
 <input type="number" min="5" max="1000" name="">
 </form>
 ```
+
+
+<h2 class="font-bold text-3xl ">CSS Selectors</h2>
+
+```css
+
+/* universal selector */
+*{
+background: blue;
+}
+
+
+/* element selector */
+button{
+	width: 300px;
+}
+
+h1,h2{
+	color: magenta;
+}
+
+/* id selector */
+
+#wrapper{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+#login{
+	color: green;
+}
+
+/* class selector */
+
+.tag{
+	color: blue;
+}
+
+/* descendant selector */
+
+ul a{
+	text-decoration: none
+}
+
+/* Adjacent selector
+* any paragraph that comes after h1
+*/
+
+h1 + p{
+	color: red;
+}
+
+/* direct children */
+
+div > li {
+	list-style: none;
+}
+
+/* attribute selector */
+
+input[type="password"]{
+	border: 2px solid blue;
+}
+
+/* pseudo classes */
+
+// when something is hovered on
+:hover{}
+
+// something is clicked, or active
+:active{}
+
+//checkboxes or radio buttons
+
+:checked{}
+
+//n is the number
+//2n is every 2 
+.nth-of-type(n or 2n){
+
+}
+
+/* pseudo elements */
+
+::after{}
+
+::before{}
+
+::first-letter{}
+
+::first-line{}
+```
+
+
+<h3 class="text-2xl font-bold mt-10">Css: The cascadate</h3>
+
+The order of your styles matters. the last style will override the ones at the top.
+  
+
+
+<h3 class="text-2xl font-bold mt-10">Css: Specificity</h3>
+
+
+When it comes to specificity, the golden rule is ` ID > Class > Element`
+
+
+<h3 class="text-2xl font-bold mt-10">Css: Inheritance</h3>
+
+```
+// picks color of the closest paragraph
+p{
+	color: inherit
+}
+```
+
+
+<h3 class="text-2xl font-bold mt-10">Css: The box model</h3>
+
+Everything has 4 properties
+<ul>
+	<li>content box (width and height)</li>
+	<li>Padding</li>
+	<li>Border ( border and border-radius) </li>
+	<li>Margin</li>
+</ul>
+

@@ -1,6 +1,6 @@
 ---
-layout: post
 title:  "laravel up and running"
+layout: post
 date:   2020-11-23
 categories: laravel php
 ---
@@ -225,7 +225,7 @@ to display the file in the browser `response()->file('mydriv3453453454.pdf')`
 - `@forelse(condition) @empty @endforelse`
 
 
-###### $loop within @foreach and @forelse
+###### `$loop` within @foreach and @forelse
 
 - `$loop->index` the 0 based index
 
@@ -245,23 +245,22 @@ to display the file in the browser `response()->file('mydriv3453453454.pdf')`
 
 
 ```html+php
-
-<ul>
-	@foreach($pages as $page)
-	<li>{{$loop->iteration}} : {{$page->title}}
-	@if($page->hasChildren())
 	<ul>
-		@foreach($page->children() as $child)
-		<li>{{$loop->parent->iteration}}
-			{{$loop->iteration}}
-			{{$child->title}}
+		@foreach($pages as $page)
+		<li>{{$loop->iteration}} : {{$page->title}}
+		@if($page->hasChildren())
+		<ul>
+			@foreach($page->children() as $child)
+			<li>{{$loop->parent->iteration}}
+				{{$loop->iteration}}
+				{{$child->title}}
+			</li>
+			@endforeach
+		</ul>
+		@endif
 		</li>
-		@endforeach
+		@enforeach
 	</ul>
-	@endif
-	</li>
-	@enforeach
-</ul>
 ```
 
 
@@ -292,28 +291,28 @@ to display the file in the browser `response()->file('mydriv3453453454.pdf')`
 
 ##### Extending blade layout
 
-```
-@extends('layouts.master')
+```html+php
+	@extends('layouts.master')
 
-@section('title','dashboard')
+	@section('title','dashboard')
 
-@section('content')
-welcome
+	@section('content')
+	welcome
 
-@endsection
-
-
-@section('footerScripts')
-@parent
-<script type="dashboard.js"></script>
-@endsection
+	@endsection
 
 
-@include('sign-up-button',['text'=>'see just how great it is'])
+	@section('footerScripts')
+	@parent
+	<script type="dashboard.js"></script>
+	@endsection
 
-<a class="button">
-{{ $text }}
-</a>
+
+	@include('sign-up-button',['text'=>'see just how great it is'])
+
+	<a class="button">
+	{{ $text }}
+	</a>
 ```
 
 
