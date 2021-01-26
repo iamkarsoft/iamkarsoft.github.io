@@ -1,7 +1,7 @@
 ---
 title: "Serverless tips"
 layout: post
-date: 
+date: 2021-01-26
 categories:  devops tips
 ---
 

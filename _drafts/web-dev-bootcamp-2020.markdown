@@ -333,3 +333,11 @@ Everything has 4 properties
 	<li>Margin</li>
 </ul>
 
+
+<h2 class="text-3xl font-bold mt-10">Css: Css Units</h2>
+
+ - Percentages (10%)
+ 	- used for width and height
+
+ - Rems (2rem) changes unless root size changes 
+ - Em (10em)
