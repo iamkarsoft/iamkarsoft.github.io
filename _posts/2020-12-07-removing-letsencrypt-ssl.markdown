@@ -10,7 +10,7 @@ categories: devops dns ssl
 
 
 
-```
+```bash
 rm -rf /etc/letsencrypt/live/${DOMAIN}
 rm -rf /etc/letsencrypt/renewal/${DOMAIN}.conf
 rm -rf /etc/letsencrypt/archive/${DOMAIN}
@@ -19,7 +19,7 @@ rm -rf /etc/letsencrypt/archive/${DOMAIN}
 
 ### In case apache2 stops working
 
-```
+```bash
 apachectl stop
 /etc/init.d/apache2 start
 ```

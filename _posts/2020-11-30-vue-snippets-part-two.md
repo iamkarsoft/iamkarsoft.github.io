@@ -14,7 +14,6 @@ categories: vuejs javascript
 #### Data Binding
 
 ```
-
 // html
 
   <a   :href="github"
