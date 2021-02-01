@@ -341,3 +341,73 @@ Everything has 4 properties
 
  - Rems (2rem) changes unless root size changes 
  - Em (10em)
+
+
+<h2 class="text-3xl font-bold mt-10">Javascript Properties and methods</h2>
+
+<h3 class="text-2xl font-bold mt-10">Trim()</h3>
+<br>
+<pre>
+	<code>value.trim()</code>
+</pre>
+
+<h3 class="text-2xl font-bold mt-10">indexOf</h3>
+
+<p class="mt-2">Is used to search for the matching value contained </p>
+
+<pre>
+	<code>
+		"haha that is so funny!".indexOf('u')
+	</code>
+</pre>
+
+
+<h3 class="text-2xl font-bold mt-10">Slice()</h3>
+
+<p class="mt-2">Slice is used to extract a portion of a string</p>
+
+<pre>
+	<code>
+		"I love footbal".slice(5)
+		"i know what you doing".slice(3,6) //start point and end point
+	</code>
+</pre>
+
+<h3 class="text-2xl font-bold mt-10">replace()</h3>
+
+<p class="mt-2">Used to replace a particular string with another. It takes 2 arguments. the first being what we want to replace, the 2nd being what is used to replace.</p>
+
+<pre>
+	<code>
+		"haha that is so funny!".replace('haha', 'lolol')
+	</code>
+</pre>
+
+
+<h2 class="text-2xl font-bold mt-10">Template literals</h2>
+
+This is used to replace double quotes
+
+<pre>
+	<code>
+		`Hello ${variable}`
+	</code>
+</pre>
+
+<h2 class="text-2xl font-bold mt-10">Math Objects</h2>
+
+<ul class="mt-5">
+	<li>`Math.floor` rounds below</li>
+	<li>`Math.ceil` rounds above</li>
+	<li>`Math.random()`</li>
+</ul>
+
+<h2 class="text-2xl font-bold mt-10">Decision making</h2>
+
+<h3 class="text-2xl font-bold mt-5"> Comparison Operators</h3>
+<h3 class="text-2xl font-bold mt-5">Equality & Inequality Operators</h3>
+<h3 class="text-2xl font-bold mt-5">Logical Operators</h3>
+
+
+<h2 class="text-2xl font-bold mt-10">Conditionals</h2>
+`if` `else if` `else`
