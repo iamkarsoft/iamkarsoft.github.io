@@ -9,14 +9,14 @@ categories: javascript course
 
 
 
-<h2 class="text-3xl font-bold mt-10"> Html Tags</h2>
+##  Html Tags
 
 - Headers (`<h1></h1>-<h6></h6>`)
 - paragraphs`<p></p>`
 
 
 
-<h3 class="text-2xl font-bold mt-10"> Html Skeleton</h3>
+###  Html Skeleton
 
 ```
 <!DOCTYPE html>
@@ -28,10 +28,10 @@ categories: javascript course
 </html>
 ```
 
-<h3 class="text-2xl font-bold mt-10"> Html: Lists</h3>
+###  Html: Lists
 
 
-<h4 class="text-xl font-bold mt-10">  Unordered list</h4>
+####   Unordered list</h4>
 
 ```
 <ul>
@@ -39,7 +39,7 @@ categories: javascript course
 </ul>
 ```
 
-<h4 class="text-xl font-bold mt-10"> Ordered list</h4>
+####  Ordered list</h4>
 
 
 ```
@@ -50,7 +50,7 @@ categories: javascript course
 ```
 
 
-<h3 class="text-3xl font-bold mt-10"> Html: Anchor link</h3>
+###  Html: Anchor link
   
 ```
 <a href="http://google.com">google.com</a> //link
@@ -59,16 +59,16 @@ categories: javascript course
 ```
 
 
-<h3 class="text-xl font-bold mt-10"> Html: Image Elements</h3>
+###  Html: Image Elements
 
 ```
 <img src="imagename.extension" alt="an image on my pc">
 ```
 
-<h3 class="text-xl font-bold mt-10"> Html: Html Entities</h3>
+###  Html: Html Entities
 
 
-<h3 class="text-xl font-bold mt-10"> Html: Semantic Html</h3>
+###  Html: Semantic Html
 
 semantic markup is related markup. 
 
@@ -83,10 +83,10 @@ semantic markup is related markup.
 
 
 
-<h3 class="text-2xl font-bold mt-10">Html: Forms & Tables</h3>
+### Html: Forms & Tables
 
 
-<h4 class="text-xl font-bold mt-10">Tables</h4>
+#### Tables
 
 - `<table></table>` the tag for table
 - `<td></td>` table data represents a cell
@@ -95,6 +95,8 @@ semantic markup is related markup.
 - `<thead></thead>` to wrap all table headers
 - `<tbody></tbody>` to specify all table body for cells data
 - `<tfooter></tfooter>` to group table footer
+  
+
 
 ```html
 <table>
@@ -139,7 +141,8 @@ semantic markup is related markup.
 ```
 
 
-<h3 class="text-2xl font-bold mt-10"> Forms</h3>
+###  Forms
+  
 
 - `<form></form>` form element for containing fields and everything related to the form 
 
@@ -187,7 +190,7 @@ semantic markup is related markup.
 	<button type="submit">submit</button>
 </form>
 ```
-<h4 class="text-xl font-bold mt-10">Form validations</h4>
+#### Form validations</h4>
 
 - `required` makes field a required field that needs user input
 - `minlength maxlength` min max puts a limit on the minimum and maximum characters required in a text input field
@@ -208,10 +211,9 @@ semantic markup is related markup.
 ```
 
 
-<h2 class="font-bold text-3xl ">CSS Selectors</h2>
+## CSS Selectors
 
 ```css
-
 /* universal selector */
 *{
 background: blue;
@@ -301,19 +303,19 @@ input[type="password"]{
 ```
 
 
-<h3 class="text-2xl font-bold mt-10">Css: The cascadate</h3>
+### Css: The cascadate
 
 The order of your styles matters. the last style will override the ones at the top.
   
 
 
-<h3 class="text-2xl font-bold mt-10">Css: Specificity</h3>
+### Css: Specificity
 
 
 When it comes to specificity, the golden rule is ` ID > Class > Element`
 
 
-<h3 class="text-2xl font-bold mt-10">Css: Inheritance</h3>
+### Css: Inheritance
 
 ```
 // picks color of the closest paragraph
@@ -323,7 +325,7 @@ p{
 ```
 
 
-<h3 class="text-2xl font-bold mt-10">Css: The box model</h3>
+### Css: The box model
 
 Everything has 4 properties
 <ul>
@@ -334,7 +336,7 @@ Everything has 4 properties
 </ul>
 
 
-<h2 class="text-3xl font-bold mt-10">Css: Css Units</h2>
+## Css: Css Units
 
  - Percentages (10%)
  	- used for width and height
@@ -343,15 +345,15 @@ Everything has 4 properties
  - Em (10em)
 
 
-<h2 class="text-3xl font-bold mt-10">Javascript Properties and methods</h2>
+## Javascript Properties and methods
 
-<h3 class="text-2xl font-bold mt-10">Trim()</h3>
+### Trim()
 <br>
 <pre>
 	<code>value.trim()</code>
 </pre>
 
-<h3 class="text-2xl font-bold mt-10">indexOf</h3>
+### indexOf
 
 <p class="mt-2">Is used to search for the matching value contained </p>
 
@@ -362,7 +364,7 @@ Everything has 4 properties
 </pre>
 
 
-<h3 class="text-2xl font-bold mt-10">Slice()</h3>
+### Slice()
 
 <p class="mt-2">Slice is used to extract a portion of a string</p>
 
@@ -373,7 +375,7 @@ Everything has 4 properties
 	</code>
 </pre>
 
-<h3 class="text-2xl font-bold mt-10">replace()</h3>
+### replace()
 
 <p class="mt-2">Used to replace a particular string with another. It takes 2 arguments. the first being what we want to replace, the 2nd being what is used to replace.</p>
 
@@ -384,7 +386,7 @@ Everything has 4 properties
 </pre>
 
 
-<h2 class="text-2xl font-bold mt-10">Template literals</h2>
+## Template literals
 
 This is used to replace double quotes
 
@@ -394,7 +396,7 @@ This is used to replace double quotes
 	</code>
 </pre>
 
-<h2 class="text-2xl font-bold mt-10">Math Objects</h2>
+## Math Objects
 
 <ul class="mt-5">
 	<li>`Math.floor` rounds below</li>
@@ -402,12 +404,90 @@ This is used to replace double quotes
 	<li>`Math.random()`</li>
 </ul>
 
-<h2 class="text-2xl font-bold mt-10">Decision making</h2>
+## Decision making
+  
 
-<h3 class="text-2xl font-bold mt-5"> Comparison Operators</h3>
-<h3 class="text-2xl font-bold mt-5">Equality & Inequality Operators</h3>
-<h3 class="text-2xl font-bold mt-5">Logical Operators</h3>
+ - Comparison Operators
+ - Equality & Inequality Operators
+ - Logical Operators
 
 
-<h2 class="text-2xl font-bold mt-10">Conditionals</h2>
-`if` `else if` `else`
+## Conditionals
+`if` `else if` `else` 
+
+
+## Arrays
+  
+ Array are ordered collections of values.
+
+### Creating Arrays
+  
+ `let lottoNumbers = [1,2,34]`  
+
+
+### Array Methods
+  
+ - array.push() add to the end of array  
+ - array.pop() remves item at the end
+ - array.shift() removes beginning item of an array
+ - array.unshift() add item at the beginning of an array
+ - array.concat() i.e `cats.concat(dogs)`
+ - array.includes() : checks if array inclue a value i.e `cats.includes('blue')` 
+ - array.indexOf(): i.e `cats.indexOf('kitten')` 
+ - array.reverse()  it reverses an array i.e `cats.reverse()`
+ - array.slice() . makes a copy of an array and has a beginning and end point i.e `cats.slice(3) or cats.slice(2,5)` it includes the start point but not the ending array index.
+ - array.splice()  use to modify and replace the existing array. needs to specify start point, and how many things to delete before adding the item i.e `cats.splice(5,1) or cats.splice(1,0,'junior')`
+ - array.sort()
+  
+### Multi-dimensional Array
+
+```js
+const gameBoard=[  
+					['x','o','x'],
+					['o',null,'x']
+				];
+
+// getting value
+gameBoard[1][1]
+```
+  
+## Javascript Objects
+  
+ - Objects are collections of properties
+ - Properties are a key-value pair
+ - We use custom keys to access data when it comes to objects
+ 
+
+### Creating object
+
+**P.S** every key is turned into a string.  
+
+
+```js
+ const product = {
+ 			name: "Gummy Bears",
+ 			inStock: true,
+ 			price: 1.99,
+ 			flavors: ["vanilla","strawberry"]
+		 }
+```
+  
+
+### Accessing object data
+
+ - [1] `product["name"]`
+ - [2] `product.name`  
+  
+
+### Modifying Objects
+  
+`product.inStock = false` or `product["price"] =2.99`
+
+
+  
+### Nesting Arrays & Objects
+  
+
+## Loops
+
+
