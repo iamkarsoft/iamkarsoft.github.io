@@ -1,7 +1,7 @@
 ---
 title: Before you accept a job from a company
 layout: post
-date: 
+date: 2021-02-16
 categories: agency personal
 ---
 

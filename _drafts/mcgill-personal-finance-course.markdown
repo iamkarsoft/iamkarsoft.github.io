@@ -99,4 +99,150 @@ Discover the importance of the time value of money and learn concepts such as co
 
 - save bi-weekly will give interest more than saving at the end of month.
 - pay bi-weekly will reduce the interest than paying a lumbsome at the end of the month.
-- 
+  
+
+## Strategic Budget Building  
+  
+Learn why a budget is an important tool when it comes to reaching your financial goals, and get tips to make budgeting simple, painless and effective.
+
+
+### Why Budget?
+  
+It is an estimate of income and expenditure over a period of time.
+
+### Tips && Techniques
+  
+**Preparing**  
+  
+- 1-3 to describe where you stand financially
+- 1-3 where you'll like to be
+- good to be flexible
+- have a 3 years vision
+- have problem and solutions to your vision
+- have a list of key holders
+
+**Analyzing Phase**
+ 
+- start calculating your income and expenditure
+- reach your key stakeholders
+  
+**Decision phase**
+- finilize that 3 years vision
+
+
+### Keys steps to budgeting
+  
+- Achieving quick wins
+    + list 3 things to get you closer to your goals
+    + check your bank balance and indicators to see how things are going
+- An annual budget is important
+- have a vision of where you want to be in 3 years
+- review your budget yearly and adjust accordingly
+  
+
+## The Art of Investing part 1
+  
+
+### Investment Options  
+ 
+**Stocks**  
+
+ - Stocks are very risky
+ - Buying stocks means you own part of the company.When you buy a stock, you own part of the company. This means that you make money if the company does well, but if the company does poorly, you lose money. As such, there are no guarantees that you will earn investment income by buying stocks.
+ - You may either gain or lose money depending on how well the company is doing
+   
+**Bonds**
+  
+- Bonds are IOUs
+- when you buy bonds, you loan money to companies and the companies pay back with interest.
+- Great thing about bonds is you make profit if the company still alive
+- They are less risky than stocks
+- Stocks offer higher returns to investors
+- Bond returns depends on interest rates.
+- A Guaranteed Investment Certificate (GIC) is an example of a short-term bond issued by banks. They are very safe investments because they guarantee your original investment as well as a specific rate of return.
+  
+### How to invest
+  
+ - Mutual Funds (passive and active mutual funds)
+ 
+
+### Common Mistakes and rules to avoid them when investing
+  
+- Diversification of your portfolio
+    + buy 10 to 20 stocks 
+    + buy different kind of stocks
+    + buy index funds 
+    + invest in international markets as well
+- Historical performance is not necessarily an indication of future performance. Data shows that past winners usually don’t become tomorrow’s winners.  
+  
+  
+## The Art of Investing part 2
+  
+### Progressinve income task
+  
+- The higher you earn, the higher incremental taxes
+  
+
+### Paying down debts
+  
+
+- bank loans, credit cards carry high interest rates
+- pay debt to reduce income tax
+
+### Government Incentives
+  
+- TFSA  is a government registered account which is investment task free account
+    + If you go over your TFSA contribution limit, you will incur a monthly penalty as long as the excess remains in your account
+    + An investment advisor can identify strategies that can reduce the amount of tax you pay today and in retirement, based on your personal tax and income situation.
+    + If you go over your TFSA contribution limit, you will incur a monthly penalty as long as the excess remains in your account
+
+
+- Registered retired savings plan
+    + allows to contribute eligle salary
+    + it's tax excempt unless you do a withdrawal 
+    + tax are calculated based on marginal tax rate of the year of withdrawal
+    + using an rrsp will provide more high effective after tax returns
+- Both RRSPs and TFSAs are registered accounts with the Canadian government that have been established to help Canadians save, and they come with significant tax advantages. While RRSPs are specifically designed for retirement savings, TFSAs are flexible retirement vehicles that can be used for retirement or other personal goals.
+- When you pay down debt, you have a guaranteed rate of return equal to the rate of interest you’re avoiding. For example, if you’re paying $100 toward your credit card balance, which carries an interest rate of 19.99%, you “save” having to pay interest of 19.99%.  Another way you can look at it is that you’re “earning” a 19.99% rate of return on your investment. What’s more, interest saved on paying down debt is not taxed, making the case for paying down debt even stronger.
+  
+
+## The Realities of real estate
+   
+### Why real estate?
+ 
+- they have capital appreciation
+- being a landlord allows money income
+- leverage for mortgage
+- tax benefits
+- offers diversification benefits
+- used as a hedge surge of inflation
+
+### Factors to consider
+  
+- Location
+    + population and income growth of a city (capital  appreciation )
+    + quality of life
+    + 
+- Macro factors
+    + mortgage rates
+    + housing prices
+    + constraints on location
+- Micro factors
+    + where do you want to buy?
+    + Up and coming neighbourhood
+    + established neighbourhood
+    + the type of real estates 
+    + right price 
+    + avoid old properties
+    + unique projects
+  
+### Renting vrs Buying Decision
+
+- 28% or 36% ratio between housing expenses and housing expenditures
+- Median house price to household income
+- when ratio is high, renting is better.
+
+### Alternative ways into real estate
+  
+  - REITS (real estate investment trusts)
+  - 
