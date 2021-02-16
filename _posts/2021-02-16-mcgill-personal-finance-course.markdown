@@ -1,8 +1,8 @@
 ---
 title: McGill Personal Finance Course
 layout: post
-date: 
-categories: course
+date: 2021-02-16
+categories: course finance
 ---
 
 This is a course from McGill university, a canadian university. The objectives of this course is to help me make better financial decisions.  
@@ -238,11 +238,56 @@ It is an estimate of income and expenditure over a period of time.
   
 ### Renting vrs Buying Decision
 
-- 28% or 36% ratio between housing expenses and housing expenditures
+- rent ratio 28% or 36% .The general rule of thumb is that you should not spend more than 28% to 36% on housing. If you are, then your housing investment is too high and out of your comfort zone.
 - Median house price to household income
 - when ratio is high, renting is better.
+- To obtain the price-to-rent ratio for an area, divide the average purchase price of a property by the average rental price of an equivalent property.
+ (500000 / (20000*12))
+- A high price-to-rent ratio suggests that it is more affordable to rent in that city than to buy. Generally, a price-to-rent ratio above 20 indicates that it’s more favourable to rent
+  
+
 
 ### Alternative ways into real estate
   
   - REITS (real estate investment trusts)
-  - 
+  
+
+## Behavorial finance
+  
+Behavorial finance is the fusion of finance and psychology.  
+
+  
+### What kind of investor are you?
+  
+- What is your risk level?
+    + Risk arvesed investors
+    + stocks usually give 5% more than government bonds but are riskier.
+    + Risk arvesed investors usually go for Bonds,t-Bills,Gics and safer investments while the others go for riskier investments like stocks
+  
+
+**The few things determining a person risk level**  
+  
+- Level of wealth
+- Age
+- Personal Situation and liquidity needs
+    + mortgage
+    + rent
+- Personality
+  
+  
+### Psychological Mistakes
+  
+**behavorial biases**  
+
+- **the conservatism bias** This is where investors underreact.Conservatism leads an investor to hold on to their prior beliefs too strongly and underweight the significance of new information.
+- **representativeness** Upon seeing a long trend of good or bad performance, an investor who exhibits the representativeness bias would view that trend as an inherent and representative property of the stock and overestimate the likelihood that the trend will continue.
+- **the disposition effect** tendency of investors of selling performing stocks and keeping the bad ones.
+- **buyers self attribution** praise yourself for good investment and say bad luck when a stock go bad
+- **the emotion of fear** this affects decisions you make while investing.
+  
+
+### Investment Strategies
+  
+- Momentum trading
+    + invest in winner stocks. they might continue to turning up good returns
+- The Post-earnings announcement drift
