@@ -13,6 +13,33 @@ pre,.highlight {
 
 
 }
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 1rem auto;
+	font-weight: bold;
+    color: rgba(76, 81, 191);
+
+}
+
+h1{
+	font-size: 2.5rem;
+    color: #4c51bf;
+    margin:1.5rem auto;
+
+}
+
+h2{
+	font-size: 2rem;
+    color: #4c51bf;
+
+}
+
+h3{
+	font-size: 1.8rem;
+    color: #111827;
+
+}
+
 pre code {
 	    color: #bfc7d5;
     font-size: 16px;
@@ -38,4 +65,17 @@ code.highlighter-rouge{
 	background: #ec565030;
 	padding: 4px 2px;
 	margin: 10px;
+}
+
+ul li{
+	list-style: initial;
+	margin-top: 1rem;
+}
+
+ul{
+	margin-left: 1rem;
+}
+
+p {
+	margin-top: 0.5rem;
 }
