@@ -72,6 +72,12 @@ ul li{
 	margin-top: 1rem;
 }
 
+
+ol li{
+	list-style: initial;
+	margin-top: 1rem;
+}
+
 ul{
 	margin-left: 1rem;
 }
