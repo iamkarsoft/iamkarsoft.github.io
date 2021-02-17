@@ -1,7 +1,7 @@
 ---
 title: Dealing with clients
 layout: post
-date: 
+date: 2021-02-17
 categories: agency freelance
 ---
 Few Tips to know before dealing with freelance clients.  

@@ -68,7 +68,8 @@ img{
 <br>
 <h3 class="font-bold text-2xl">Scale</h3>
 
-Increase or Decrease style horizontalyand verticaly on item
+Increase or Decrease style horizontalyand verticaly on item  
+
 
 ```css
 img:hover{
