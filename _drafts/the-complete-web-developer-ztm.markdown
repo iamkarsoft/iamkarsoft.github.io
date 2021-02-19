@@ -247,3 +247,153 @@ input.addEventListener("keypress", addListAfterKeypress(event));
 
 
 This is something called a callback function. When that line of javascript runs, we don't want the addListAfterClick function to run because we are just adding the event listener now to wait for click or keypress. We want to let it know though that we want this action to happen when a click happens. So the function now automatically gets run (gets added the ()) every time the click happens. So we are passing a reference to the function without running it.
+
+  
+## Scope
+ 
+- `root scope`  
+- `function scope` only available in function
+ 
+
+## Advanced control flow
+
+  
+### Ternary operator
+  
+
+`condition  ? expression 1 : expression 2`;
+  
+```
+var answer = isValid(true) ? "You may enter" : "Access Denied";
+```
+
+
+### Switch Statement
+
+```js
+var whatHappens
+switch (direction){
+    case "forward":
+        whatHappens = "good for you";
+        break;
+        default:
+        console.log("far away");
+    }
+    return whatHappens;
+
+```
+
+### ES6 and Javascript
+
+
+#### Declaring Variables
+
+`let` and `const`
+
+  
+#### Object properties
+
+```
+const a  = "Simon";
+const b =true;
+const c = 100;
+const obj = {a,b,c}
+```
+  
+#### Template strings
+  
+```
+const name = "Ramos";
+const greeting =  `hi ${name} !`
+```
+
+
+#### Default Arguments
+
+```
+function greet(name='',age=10){
+
+}
+
+```
+
+  
+## Advanced functions
+
+- `closures`  a closure is a function that will run, will execute and will stop. but will always remember that there are references to variables and the children of that functions will always have access to their parent
+- `currying` is running a function that has multiple functions that it runs one at a time
+- `compose` is putting 2 functions together that returns a 3rd function
+  
+
+## Advanced Arrays
+basic looping with foreach  
+
+```js
+const array = [1,2,0,16];
+
+const double = [];
+
+const newArray = array.forEach((num)=>{
+    double.push(num*2);
+})
+```
+  
+
+### Map
+  for looping , this is the best method.
+
+```js
+const mapArray = array.map((num)=>{
+    return num * 2;
+})
+```
+  
+
+### Filter  
+  
+filter is used to filter get array values based on the criteria  
+
+```js
+const filterArray = array.filter(num =>{
+    return 1 > 5
+    })
+```
+
+### Reduce
+
+it can be used to filter and map
+
+```
+const reduceArray = array.reduce((accumulator,num)=>{
+    return accumulator + num;
+    },0) // the accumulator is 0
+```
+
+  
+## Advanced Objects
+
+  
+### Reference Type
+  they are reference types meaning they are created by the programmer. However primitive types are created by javascript.
+
+### Context
+context vrs scope
+  
+
+### Instantiation
+
+making multiple copies of an object  
+  
+
+```
+class Player{
+    constructor(name, type) {
+        this.name = name;
+        this.type = type;
+    }
+
+    introduce(){
+        console.log(`Hi I am ${this.name}`);
+    }
+}
+```
