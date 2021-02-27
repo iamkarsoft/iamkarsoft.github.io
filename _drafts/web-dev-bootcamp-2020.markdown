@@ -31,7 +31,7 @@ categories: javascript course
 ###  Html: Lists
 
 
-####   Unordered list</h4>
+####   Unordered list
 
 ```
 <ul>
@@ -39,7 +39,7 @@ categories: javascript course
 </ul>
 ```
 
-####  Ordered list</h4>
+####  Ordered list
 
 
 ```
@@ -190,7 +190,7 @@ semantic markup is related markup.
 	<button type="submit">submit</button>
 </form>
 ```
-#### Form validations</h4>
+#### Form validations
 
 - `required` makes field a required field that needs user input
 - `minlength maxlength` min max puts a limit on the minimum and maximum characters required in a text input field

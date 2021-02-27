@@ -54,7 +54,7 @@ As a web developer, I specialise in the Laravel Framework and love the freedom i
  My web development skills extend to frontend aspects of web development including JavaScript and Vue, 
  LESS/Sass/CSS, as well as designing databases and building applications that can scale.
 
- =========================================================================
+=========================================================================
 
  0:00​ - Intro & Slides
 7:17​ - User Generator Mini Project (CDN)
