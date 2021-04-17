@@ -635,3 +635,123 @@ There is also the new ES9 (ES2018) features that have come out which require a b
 
 
 ## ES2020
+
+
+## React  
+
+**Install create react app globally**  
+
+`npm install -g create-react-app`  
+
+**Create a project with create react app**  
+  
+`create-react-app projectname` or `npx create-react-app app-name`
+
+  
+### Creating React Component  
+  
+**Creating first Component**  
+  
+```
+\\ src/Hello.js
+import React, {Component} from 'react';
+
+class Hello extends Component{
+	render(){
+		return (
+		<div>
+		 <h1>Hello World </h1>
+			<h3> Welcome To React </h3>
+
+		</div>
+			);
+	}
+}
+
+export default Hello;
+```
+  
+**Using component in index file**
+  
+```
+ import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+// import App from './App';
+import Hello from './Hello';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+  	<Hello />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+```
+
+**Adding Props to component**  
+  
+ ```
+ <Hello greeting ={'Hello React Ninja'} />
+ ```
+ 
+
+
+```
+ \\ src/Hello.js
+import React, {Component} from 'react';
+
+class Hello extends Component{
+	render(){
+		return (
+		<div>
+		 <h1>Hello World </h1>
+			<h3> Welcome To React </h3>
+			<p>{this.props.greeting}</p>
+		</div>
+			);
+	}
+}
+```
+  
+### Lifecycle Hooks
+
+
+### Json  
+
+```
+const user= {
+	firstName: 'John',
+	lastName: 'Doe'
+};
+
+```
+
+
+`JSON.stringify(user);` to send json file to server and use `JSON.parse(user)` to read json file.  
+  
+### AJAX
+
+<pre class="language-js">
+	<code class="language-js">
+		$.getJSON('/url',function(data){
+
+	})
+
+	// newer
+
+	fetch('my/url').then(response=>{
+	console.log(response)
+	})
+	</code>
+</pre>
+  
+ ### APIs
+
+   

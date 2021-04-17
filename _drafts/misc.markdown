@@ -94,3 +94,79 @@ Specialties:
 • Ability to quickly learn new skills and programming languages, problem-solving, responsive design principles, and Model View Controller (MVC) methods of organizing code.
 • JavaScript, React, Next Js, Node.js, Express.js, HTML5, CSS3, PostgreSQL, Firebase, Python, Django, jQuery, AJAX, Bootstrap and Git/GitHub. 
 =====================
+
+
+### Google function for saving event in calendar
+
+```
+    public function store(Request $request, Event $event, Google $google, Calendar $calendar, UserSocial $userSocial, $optionalParams = []) {
+
+        $validated = $request->validate([
+            'title' => 'required',
+            'calendar_id' => 'required',
+            'datetime_start' => 'required|date',
+            'datetime_end' => 'required|date',
+        ]);
+
+        //getting socialite details of user
+        $user = $userSocial->where('user_id', auth()->user()->id)->first();
+
+        // assigning request inputs to variables
+        $calendar_id = $validated['calendar_id'];
+        $title = $validated['title'];
+        $start = $validated['datetime_start'];
+        $end = $validated['datetime_end'];
+
+        //parsing dates through carbon
+        $start_datetime = Carbon::parse($start)->format('Y-m-d H:i:s');
+        $end_datetime = Carbon::parse($end)->format('Y-m-d H:i:s');
+
+        // connecting to calendar service and calendar event
+        $cal = $google->connectUsing($user->token)->service('Calendar');
+        $google_event = $google->connectUsing($user->token)->service('Calendar_Event');
+
+        //setting title data
+        $google_event->setSummary($title);
+
+        // setting event start date
+        $start = $google->connectUsing($user->token)->service('Calendar_EventDateTime');
+        $start->setDateTime(Carbon::parse($start_datetime)->toAtomString());
+        $google_event->setStart($start);
+
+        // setting event end date
+        $end = $google->connectUsing($user->token)->service('Calendar_EventDateTime');
+        $end->setDateTime(Carbon::parse($end_datetime)->toAtomString());
+        $google_event->setEnd($end);
+
+        // saving event on google calendar
+        $created_google_event = $cal->events->insert($calendar_id, $google_event);
+
+        //store event in our database
+        $event = new Event;
+        $event->title = $request->input('title');
+        $event->calendar_id = auth()->user()->email;
+        $event->user_id = auth()->user()->id;
+        $event->datetime_start = $request->input('datetime_start');
+        $event->datetime_end = $request->input('datetime_end');
+        $event->save();
+
+        if ($event->save()) {
+            return redirect()->route('events', [
+                'error' => false,
+                'messages' => [
+                    'type' => 'success',
+                    'text' => 'Event Created',
+                ],
+            ]);
+        }
+
+        return Inertia::render('User/TestEventCreation', [
+            'error' => true,
+            'messages' => [
+                'type' => 'failed',
+                'text' => 'Something went wrong',
+            ]]);
+
+    }
+
+```

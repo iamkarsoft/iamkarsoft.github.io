@@ -1,0 +1,41 @@
+---
+title: f1 2019 Game
+layout: post
+date: 
+categories: leisure game
+---
+
+
+### Aerodynamics  
+  
+- Front wing aero [5]
+- Rear wing aero [3]
+
+### DRS  
+
+  
+### Suspension
+  
+- Front suspension 3
+- Rear Suspension 3
+- Front Anti-roll bar 10
+- Rear Anti-roll bar 8
+- Front Ride height 4
+- Rear ride heihgt 4
+- 
+
+  
+### Brakes
+  
+- brake pressure 85%
+- front brake 56%
+
+### 
+
+## Car Setup Guide
+
+
+### ERS / DRS
+
+### Fuel Management
+
