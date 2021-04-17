@@ -6,14 +6,18 @@ permalink: /uses/
 
 <div class="w-full md:w-3/4 mx-auto text-3xl font-bold my-10 py-8 px-6 bg-indigo-800 text-white rounded-lg">Inspired by
   <a href="https://wesbos.com/uses" target="_blank">Wes Bos</a>. This is to document my favorite tools for web development related work</div>
+  
+    
 
-### Editors  
+<h3 class="mt-16"> Editors</h3>
 
 - Sublime Text 
 - Vs Code
-
-### Browser plugins  
   
+    
+
+<h3 class="mt-16"> Browser plugins  </h3>
+
 - Todoist
 - Notion
 - Google translate
@@ -28,8 +32,9 @@ permalink: /uses/
 - What Runs   
     
   
+  
 
-### Desktop Apps
+<h3 class="mt-16"> Desktop Apps</h3>
   
 - Slack
 - Obsidian
