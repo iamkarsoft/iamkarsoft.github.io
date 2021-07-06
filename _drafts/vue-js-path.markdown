@@ -8,7 +8,7 @@ categories: course
 This is my vue js road path
   
 
-- [] Vue Js Fundamentals
+- [x] Vue Js Fundamentals
 - [] Vue components fundamentals
 - [] Vue Router for everyone
 - [] Vuex for everyone
