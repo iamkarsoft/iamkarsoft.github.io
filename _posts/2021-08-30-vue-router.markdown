@@ -15,8 +15,8 @@ categories: vuejs vue course javascript
 - [x]   Learn how to pass Vue Router params to components as props
 -  [x] Learn how to programmatically navigate the Vue Router and create a Go Back button
 -  [x] Learn how to create impressive route transitions with CSS and Vue Router
--  [x] Learn what navigation guards are and how to create an authentication middleware
-- [x]   Learn how to control the scroll behavior of the Vue Router
+-  [] Learn what navigation guards are and how to create an authentication middleware
+- []   Learn how to control the scroll behavior of the Vue Router
 
 [Learning Repo](https://github.com/iamkarsoft/vue-school-travel-app)
 
@@ -201,7 +201,7 @@ new Vue({
 
 - `magic comments` allow js to name your chunks based on your specs i.e panama will be `panama.js`
 
-```
+```js
 
 {
     path: "/about",
@@ -218,7 +218,7 @@ new Vue({
 ### Active Routes
 
 
-```
+```js
 
 <template>
 
@@ -262,7 +262,7 @@ new Vue({
 
 ```
 
-  ### Route Parameters
+### Route Parameters
   - Recommended to always use named route
   - computed properties are used the same way as data but also have custom logic
   - add `<router-view :key="$route.path"></router-view>` to make sure dynamic routing works else vue router wouldn't know when paths change
@@ -359,7 +359,7 @@ new Vue({
 
 ##### Using the component
 
-```
+```js
 <template>
     <GoBack />
 
@@ -420,7 +420,7 @@ new Vue({
 ```
  
  
- ### 404 for not found routes
+### 404 for not found routes
   
   
  
@@ -467,7 +467,7 @@ new Vue({
   
   
  
- #### Defining the path to the 404
+#### Defining the path to the 404
  
  ```js
  //router.js
@@ -488,4 +488,4 @@ new Vue({
  
  ```
  
- ## Advanced Vue Router options
+## Advanced Vue Router options
