@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Advanced Git Continued part 2"
-date:   2021-03-14 12:01:05
+date:   2022-03-14 12:01:05
 categories: git tools productivity bash  
 ---
 
