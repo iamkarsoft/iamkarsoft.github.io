@@ -128,7 +128,7 @@ app.configure(function(){
   
 Setting up which view engine one is going to use
 
-```
+```bash
 app.configure(function(){
 	//middleware
 

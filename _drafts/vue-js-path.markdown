@@ -13,3 +13,4 @@ This is my vue js road path
 - [] Vue Router for everyone
 - [] Vuex for everyone
 - [] Nuxt.js Fundamentals
+
