@@ -13,6 +13,7 @@ permalink: /uses/
 
 - Sublime Text 
 - Vs Code
+- PHP storm
   
     
 
@@ -34,7 +35,7 @@ permalink: /uses/
   
   
 
-<h3 class="mt-16"> Desktop Apps</h3>
+<h3 class="mt-16"> Desktop & Mac Apps</h3>
   
 - Slack
 - Obsidian
@@ -43,16 +44,12 @@ permalink: /uses/
 - Wox
 - Typora
 - Hyper terminal
-
-
-<h3 class="mt-16"> MacBook Pro M1 <h3>
-
 - Raycast alternate for sportlight
 - DBngin for databases
 - Brew A package manager for MacOS
 - Alfred alternative for sportlight
 - Sip a MacOs color picker
--  
+- Tinkerwell
 
 
 
