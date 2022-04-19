@@ -45,6 +45,15 @@ permalink: /uses/
 - Hyper terminal
 
 
+<h3 class="mt-16"> MacBook Pro M1 <h3>
+
+- Raycast alternate for sportlight
+- DBngin for databases
+- Brew A package manager for MacOS
+- Alfred alternative for sportlight
+- Sip a MacOs color picker
+-  
+
 
 
 
