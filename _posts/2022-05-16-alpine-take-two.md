@@ -21,7 +21,6 @@ Using CDN `<script src="http://unpkg.com/alpinejs" defer></script>`
 
 <br>
 
-
 ```html
 <body class="p-4">
 <h1 class="my-4">Alpine.js Crash Course</h1>
@@ -37,10 +36,9 @@ Using CDN `<script src="http://unpkg.com/alpinejs" defer></script>`
 	
 </div>
 </body>
-	
 ```
 
-1. to stop flicker you can use `x-cloak`
+3. to stop flicker you can use `x-cloak`
 
 <br>
 
