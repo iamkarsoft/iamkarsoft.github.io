@@ -18,6 +18,10 @@ Using CDN `<script src="http://unpkg.com/alpinejs" defer></script>`
 
 1. setting alpine state `x-data={state}`
 2. Show and hide
+
+<br>
+
+
 ```html
 <body class="p-4">
 <h1 class="my-4">Alpine.js Crash Course</h1>
@@ -36,7 +40,7 @@ Using CDN `<script src="http://unpkg.com/alpinejs" defer></script>`
 	
 ```
 
-3. to stop flicker you can use `x-cloak`
+1. to stop flicker you can use `x-cloak`
 
 <br>
 
