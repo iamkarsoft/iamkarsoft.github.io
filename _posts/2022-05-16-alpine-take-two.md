@@ -16,7 +16,7 @@ Using CDN `<script src="http://unpkg.com/alpinejs" defer></script>`
 
 ### Setting state and show and hide
 
-1. setting alpine state `x-data={state}`
+1. setting alpine state `x-data="{state}"`
 2. Show and hide
 
 <br>
