@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "oop with laracast"
+title:  "OOP with laracast"
 date:   2022-05-23 
 categories: course oop
 ---
