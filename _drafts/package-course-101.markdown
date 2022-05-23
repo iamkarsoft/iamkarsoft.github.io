@@ -659,8 +659,6 @@ you just need to pass the route inside your service providers boot method.
 
 ### Testing the view
 
- 
- -  
 
   
 ```

@@ -26,13 +26,13 @@ A foundational frontend developer should be able to:
 <h3 class="text-2xl font-bold my-10">Upgrading</h3>
 
 <ul>
-	<li>React / Next.js</li>
-	<li>Vue / Nuxt.js</li>
-	<li>Svelte / Sapper</li>
-	<li>TypeScript</li>
-	<li>Testing</li>
-	<li>Headless CMS (strapi , Wordpress)</li>
-	<li>JAMstack </li>
+	<li>[ ] React / Next.js</li>
+	<li>[ ] Vue / Nuxt.js</li>
+	<li>[ ] Svelte / Sapper</li>
+	<li>[ ] TypeScript</li>
+	<li>[ ] Testing</li>
+	<li>[ ] Headless CMS (strapi , Wordpress)</li>
+	<li>[ ] <p></p>JAMstack </li>
 </ul>
 <br>
 The things to focus on are
@@ -49,7 +49,7 @@ The things to focus on are
 <br>
 <ul>
 	<li>[x]&nbsp; PHP ( Laravel / Slim)</li>
-	<li>[-]&nbsp; Node JS (Express)</li>
+	<li>[x]&nbsp; Node JS (Express)</li>
 	<li>[]&nbsp; Python (Django)</li>
 </ul>
 
@@ -76,8 +76,8 @@ The things to focus on are
 <h3 class="text-2xl font-bold my-10">Dev Ops</h3>
 <br>
 <ul>
-	<li>[] &nbsp;Hosting Platforms (heroku, Digital Ocean)</li>
-	<li>[] &nbsp;Web Servers (NGINX, Apache)</li>
+	<li>[x] &nbsp;Hosting Platforms (heroku, Digital Ocean)</li>
+	<li>[x] &nbsp;Web Servers (NGINX, Apache)</li>
 	<li>[] &nbsp;Containers (Docker / Kubernetes , Vagrant)</li>
 	<li>[] &nbsp;Image/ Video (Cloudinary, S3)</li>
 	<li>[] &nbsp;CI/CD (Jenkins, Travis CI, Circle Ci)</li>
@@ -89,10 +89,10 @@ To be a full stack developer, you should be able to:
 <ul>
 	<li>[x] &nbsp; Be comfortable with both building frontend UIs and servers</li>
 	<li>[x] &nbsp;Know a server side language / technology</li>
-	<li>[] &nbsp;Can work with & sturcutre databases, work with ORMs / ODMs</li>
-	<li>[] &nbsp;Understan HTTP & Create RESTful APIs</li>
+	<li>[] &nbsp;Can work with & structure databases, work with ORMs / ODMs</li>
+	<li>[] &nbsp;Understand HTTP & Create RESTful APIs</li>
 	<li>[] &nbsp;Can successfully deploy full stack projects</li>
-	<li>[] &nbsp;Very commfortable with the terminal</li>
+	<li>[] &nbsp;Very comfortable with the terminal</li>
 </ul>
 
 

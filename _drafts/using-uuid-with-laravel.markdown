@@ -20,6 +20,8 @@ categories: laravel package
 
 
 ### the model trait
+
+
 ```php
 // Models/Uuids.php
 /**
