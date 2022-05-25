@@ -76,7 +76,7 @@ return $user->role == User::MEMBER;
 
 ### Using your created gates in blade template
 
-
+{% include codeHeader.html %}
 ```php
 
 <x-layouts.layout>
@@ -109,7 +109,7 @@ return $user->role == User::MEMBER;
 
 ###  Using Gates in controller
 
-
+{% include codeHeader.html %}
 ```php
 
 //===========  allow role
@@ -151,7 +151,7 @@ Gate::authorize('isUser');
 
 ### Using Gates in routes
 
-
+{% include codeHeader.html %}
 ```php
 Route::get('/allow/admin', function () {
     echo 'allowed admin';

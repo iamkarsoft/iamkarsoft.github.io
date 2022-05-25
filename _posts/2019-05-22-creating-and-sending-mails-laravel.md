@@ -12,9 +12,13 @@ first of all we create a mailable with php artisan and generating a markdown ema
 ` php artisan make:mail Job/CandidateApplied --markdown=emails.application.applied`
 
 ### calling the mail class to send the mail 
+
 <br>
+
 #### calling it with extra arguments
+
 <br>
+{% include codeHeader.html %}
 ```
 use Mail;
 use App\Mail\Job\InviteCandidate; #  custom mailable class location
@@ -26,10 +30,14 @@ use App\Mail\Job\InviteCandidate; #  custom mailable class location
 ```
 
 <h4>Calling it</h4>
-<br>
-the mailable class `App > Mail > Job >InviteCandidate.php`
+
 <br>
 
+the mailable class `App > Mail > Job >InviteCandidate.php`
+
+<br>
+
+{% include codeHeader.html %}
 ```
 <?php
 

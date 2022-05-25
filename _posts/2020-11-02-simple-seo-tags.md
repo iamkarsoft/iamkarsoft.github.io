@@ -8,6 +8,7 @@ categories: seo html markup
 
 basic seo tags html markup
 
+{% include codeHeader.html %}
 ```html
 <meta charset="utf-8">
 <title></title>

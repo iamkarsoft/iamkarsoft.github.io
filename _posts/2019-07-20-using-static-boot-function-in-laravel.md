@@ -7,6 +7,7 @@ categories: laravel php model gist
 
 ### Using boot function to create certain events simultaneously
 
+{% include codeHeader.html %}  
 ```
 # User Model
  public static function boot()

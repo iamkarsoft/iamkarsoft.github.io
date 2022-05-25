@@ -13,6 +13,7 @@ In my case, my server was an apache server. The fix was to create an `.htaccess`
 
 ### .htaccess content
 
+{% include codeHeader.html %} 
 ```
 <IfModule mod_rewrite.c>
   RewriteEngine On

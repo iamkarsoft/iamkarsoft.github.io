@@ -9,6 +9,7 @@ categories: course oop
 
 ### Creating a class
 
+{% include codeHeader.html %}
 ```php
 
 class Person{
@@ -54,6 +55,7 @@ return $familia->familia();
 
 ### Scoping
 
+{% include codeHeader.html %}
 ```php
 
 // scope resolution
@@ -99,6 +101,7 @@ echo $test2;
 
 ### Static methods and properties
 
+{% include codeHeader.html %}
 ```php
 
 // Static properties and static functions
@@ -151,7 +154,7 @@ echo Person::$drivingAge;
 
 ### Constructers and Destructers
 
-
+{% include codeHeader.html %}
 ```php
 // constructers and destructers
 
@@ -203,6 +206,7 @@ class Person{
 
 Interfaces are like a blueprint for methods or functions must follow
 
+{% include codeHeader.html %}
 ```php
 
 // Interfaces
@@ -285,6 +289,7 @@ $buyProduct->pay($paymentType);
 
  Abstract classes have methods you will only use in classes. You won't use this classes to create object but only reference them from other classes.
 
+{% include codeHeader.html %}
 ```php
 
 // Abstract Classes
