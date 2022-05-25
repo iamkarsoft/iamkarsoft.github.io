@@ -85,3 +85,7 @@ ul{
 p {
 	margin-top: 0.5rem;
 }
+
+.copy-code-button {
+  display: block;
+}

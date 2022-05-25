@@ -18,6 +18,7 @@ categories: laravel gates
 ### Defining custom gates in  `app/Providers/AuthServiceProvider`
 
 
+{% include codeHeader.html %}
 ```php
 
 public function boot()
