@@ -6,6 +6,8 @@ categories: laravel gates
 ---
 
 
+Gates allow you to define an authorization rule using a simple closure-based approach. In other words, when you want to authorize an action that's not related to any specific model, the gate is the perfect place to implement that logic.
+
 
 ### Set up
 
