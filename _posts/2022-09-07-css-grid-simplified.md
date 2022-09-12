@@ -11,6 +11,7 @@ categories: css course grid
 
 
 ### Making a grid
+
 - grid-template-columns
 
 
@@ -126,6 +127,8 @@ nav{
 -   align-items
     
 -   place-items
+
+
 ```css
 .section{
 	display: grid;
